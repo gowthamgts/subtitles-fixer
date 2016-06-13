@@ -1,0 +1,23 @@
+{
+  "author": "Gowtham Gopalakrishnan <gowthamgts12@gmail.com>",
+  "name": "subtitles-fixer",
+  "description": "Fix inconsistent subtitles of your serials or movies.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gowthamgts/subtitles-fixer.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hint-hint": "~0.3.0",
+    "tap": "~0.3.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
