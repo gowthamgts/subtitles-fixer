@@ -7,12 +7,21 @@
     "type": "git",
     "url": "https://github.com/gowthamgts/subtitles-fixer.git"
   },
+  "keywords": [
+    "subtitles",
+    "subtitle fix",
+    "rename subtitles"
+  ],
   "preferGlobal": true,
   "bin": {
     "subfix": "index.js"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "colors": "^1.1.2",
+    "minimist": "^1.2.0"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": ">=0.6"
